@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whitnu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://kit.fontawesome.com/526e979df3.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/2.0.0/css/imagehover.min.css">
+
+
+    <style>
+        #heroSection{
+            background-color: #ffffff;
+            background-image: url(img/topography.svg);
+        }
+        </style>
+  </head>
+</html>
+
+<body class="bg-white" style="font-family: 'Inter', 'sans-serif'">
+  <nav class="bg-white border-gray-200">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="https://flowbite.com/" class="flex items-center">
+        <img src="W.N.png" class="h-12 mr-3" alt="Flowbite Logo" />
+        <span class="self-center text-2xl font-semibold whitespace-nowrap"></span>
+      </a>
+      <button
+        data-collapse-toggle="navbar-default"
+        type="button"
+        class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+        aria-controls="navbar-default"
+        aria-expanded="false"
+      >
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+        </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 0" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#myproject" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Experience Timeline</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Project</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">Connect</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section id="Me">
+    <div class="flex py-12" id="heroSection">
+      <div class="mx-10 my-auto lg:mx-auto">
+        <h1 class="text-4xl text-black tracking-wide font-extrabold max-w-2xl mb-4 md">
+            <span id="myElement"></span>
+
+            <!-- The script itself, loaded AFTER your root element. -->
+            <script src="<https://unpkg.com/typeit@8.7.1/dist/index.umd.js>"></script>
+            <script>
+              new TypeIt("#myElement", {
+                strings: "Whitnu Nastain",
+              }).go();
+            </script>
+        </h1>
+        <p class="max-w-2xl mb-6 text-gray-600 lg:mb-8 md:text-sm lg:text-xl text-justify">
+          Saya adalah seorang Product Lead yang sangat kreatif dan terampil dalam manajemen proyek. Dengan keahliannya dalam menggunakan berbagai alat kantor dan manajemen waktu yang baik, saya mampu memimpin tim dengan efisiensi tinggi,
+          menghasilkan solusi inovatif, dan mencapai kesuksesan dalam industri teknologi.
+        </p>
+      </div>
+      <div class="ml-10 hidden lg:visible mx-auto lg:flex">
+        <img src="whitnu.jpg" class="rounded-full w-96 h-96 object-cover" alt="mockup" />
+      </div>
+    </div>
+  </section>
+
+  <section id="Have Work" class="py-24">
+    <div class="flex my-12">
+      <div class="rounded-lg my-auto mx-auto">
+        <h1 class="my-8 text-4xl font-bold">Experience Timeline</h1>
+        <ol class="items-center sm:flex">
+          <li class="relative mb-6 sm:mb-0">
+            <div class="flex items-center">
+              <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white sm:ring-8 shrink-0">
+                <svg aria-hidden="true" class="w-3 h-3 text-blue-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <div class="hidden sm:flex w-full bg-gray-800 h-0.5"></div>
+            </div>
+            <div class="mt-3 sm:pr-8">
+              <h3 class="text-lg font-semibold text-gray-900">Intelligo ID</h3>
+              <time class="block mb-2 text-sm font-normal leading-none text-gray-400">Right Now</time>
+              <p class="text-base font-normal text-gray-500">Community Leader</p>
+            </div>
+          </li>
+          <li class="relative mb-6 sm:mb-0">
+            <div class="flex items-center">
+              <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white sm:ring-8 shrink-0">
+                <svg aria-hidden="true" class="w-3 h-3 text-blue-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <div class="hidden sm:flex w-full bg-gray-800 h-0.5"></div>
+            </div>
+            <div class="mt-3 sm:pr-8">
+              <h3 class="text-lg font-semibold text-gray-900">Intelligo ID</h3>
+              <time class="block mb-2 text-sm font-normal leading-none text-gray-400">January - June 2023</time>
+              <p class="text-base font-normal text-gray-500">Product Marketing</p>
+            </div>
+          </li>
+          <li class="relative mb-6 sm:mb-0">
+            <div class="flex items-center">
+              <div class="z-10 flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full ring-0 ring-white sm:ring-8 shrink-0">
+                <svg aria-hidden="true" class="w-3 h-3 text-blue-800" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                </svg>
+              </div>
+              <div class="hidden sm:flex w-full bg-gray-800 h-0.5"></div>
+            </div>
+            <div class="mt-3 sm:pr-8">
+              <h3 class="text-lg font-semibold text-gray-900">Bricks Novation</h3>
+              <time class="block mb-2 text-sm font-normal leading-none text-gray-400">September 2022 - January 2023</time>
+              <p class="text-base font-normal text-gray-500">Product Manager</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+        <!-- start Portofolio -->
+    <section id="Portofolio" class="pb-16">
+        <div class=" flex-row my-5 text-white ml-10">
+          <h1 class="text-4xl text-gray-900 "> My Past <b>Project</h1>
+        </div>
+        <div class="container pb-16 mx-auto relative grid grid-cols-3 grid-flow-col gap-4 max-sm:grid-cols-1"> 
+          <!-- Portofolio SMP -->
+          <div class="">
+            <figure class="imghvr-blur">
+              <img src="img/Screenshot_20221129_182317.png" title="SMP 6 nekamese">
+              <figcaption class="text-center flex items-center justify-center h-auto" style="background-color: black;">
+                <div class="ih-fade-down ih-delay-md">
+                  <h3 class="text-3xl">SMPN 6 Nekamese</h3>
+                  <p class="font-semibold text-coba-gray"> School Information System</p>
+                  <p class="font-semibold text-green-400"> Done <i class="fa-sharp fa-solid fa-check text-green-400"></i></p> 
+                </div>          
+              </figcaption>
+              <a href="https://smpn6nekamese.sch.id" title="Smpn 6 nekamese"></a>
+            </figure>
+          </div> 
+          <div class="">
+            <figure class="imghvr-blur">
+              <img src="img/DevisiGeneral.png" title="BSS">
+              <figcaption class="text-center flex items-center justify-center h-auto" style="background-color: black;">
+                <div class="ih-fade-down ih-delay-md">
+                  <h3 class="text-3xl">E-Approval BSS</h3>
+                  <p class="font-semibold text-coba-gray"> Approval and Document System</p>
+                  <p class="font-semibold text-coba-green-400"> Done <i class="fa-sharp fa-solid fa-check text-green-400"></i></p> 
+                </div>          
+              </figcaption>
+              <!-- <a href="https://smpn6nekamese.sch.id"></a> -->
+            </figure>
+          </div>
+          <!-- E-Approval -->
+          <div class="">
+            <figure class="imghvr-blur">
+              <img src="img/Screenshot_20221129_183447.png" title="SMK 2 kupang">
+              <figcaption class="text-center flex items-center justify-center h-auto" style="background-color: black;">
+                <div class="ih-fade-down ih-delay-md">
+                  <h3 class="text-3xl">SMKN 2 Kupang</h3>
+                  <p class="font-semibold text-coba-gray"> School Information System</p>
+                  <p class="font-semibold text-coba-green-400"> Done <i class="fa-sharp fa-solid fa-check text-green-400"></i></p> 
+                </div>          
+              </figcaption>
+              <!-- <a href="https://smpn6nekamese.sch.id"></a> -->
+            </figure>
+          </div>   
+                  
+        </div>
+        
+      </section>
+      <!-- end portofolio -->
+
+      <section id="sosmed">
+        <div class="mx-auto">
+          <p class="text-center text-4xl text-gray-900 pb-5"> Lets Connect </p>
+          <div class="mx-auto items-center justify-center pb-16">
+            <div class="flex mx-auto justify-center">
+              <div class="w-36 grayscale hover:grayscale-0 transition-all duration-300">
+                <a href="https://web.facebook.com/whitnu.nastain/">
+                  <img src="img/Facebook-Logo.wine.svg"  alt="">
+                </a>
+              </div>    
+              <div class="w-36 grayscale hover:grayscale-0 transition-all duration-300">
+                <a href="https://www.instagram.com/whitnu/">
+                  <img src="img/Instagram-Wordmark-Logo.wine.svg"  alt="">
+                </a>
+              </div>
+              <div class="w-36 grayscale hover:grayscale-0 transition-all duration-300">
+                <a href="https://twitter.com/whitnunastain">
+                  <img src="img/Twitter-Logo.wine.svg"  alt="">
+                </a>
+              </div>
+              <div class="w-36 grayscale hover:grayscale-0 transition-all duration-300">
+                <a href="https://www.linkedin.com/in/whitnu-nastain-59088b176/">
+                  <img src="img/LinkedIn-Logo.wine.svg"  alt="">
+                </a>
+              </div>
+              <div class="w-36 grayscale hover:grayscale-0 transition-all duration-300">
+                <a href="https://wa.me/6281337391723">
+                  <img src="img/WhatsApp-MonochromeWithName2-Logo.wine.svg"  alt="">
+                </a>
+              </div>
+              <div class="w-36 grayscale hover:grayscale-0 transition-all duration-300">
+                <a href="https://github.com/Whitnu12">
+                  <img src="img/GitHub-Wordmark-Logo.wine.svg"  alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      
+<footer class="bg-white rounded-lg shadow pt-10">
+  <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+      <div class="sm:flex sm:items-center sm:justify-between">
+          <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0">
+              <img src="W.N.png" class="h-8 mr-3" alt="Flowbite Logo" />
+              <span class="self-center text-2xl font-semibold whitespace-nowrap ">Whitnu Nastain</span>
+          </a>
+          <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 ">
+              <li>
+                  <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+              </li>
+              <li>
+                  <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+              </li>
+              <li>
+                  <a href="#" class="mr-4 hover:underline md:mr-6 ">Licensing</a>
+              </li>
+              <li>
+                  <a href="#" class="hover:underline">Contact</a>
+              </li>
+          </ul>
+      </div>
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://github.com/Whitnu12" class="hover:underline">Whitnu™</a>. All Rights Reserved.</span>
+  </div>
+</footer>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+</body>
